@@ -1,0 +1,39 @@
+<%= form_with(model: coin, local: true) do |form| %>
+  <% if coin.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(coin.errors.count, "error") %> prohibited this coin from being saved:</h2>
+
+      <ul>
+      <% coin.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :Descrição %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Sigla %>
+    <%= form.text_field :acronym %>
+  </div>
+
+  <div class="field">
+    <%= form.label :URL_da_imagem %>
+    <%= form.text_field :url_image %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Tipo_de_mineração %>
+    <%= form.select("mining_type_id", @mining_type_options, {include_blank: 'Selecione...'})
+ %>
+    <%=  %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,23 @@
+<p>
+<%= link_to 'Português', root_path(locale:'pt-BR') %>
+</p>
+<p>
+<%= link_to 'English', root_path(locale:'en') %>
+</p>
+
+
+<h1><%= t('welcome')%></h1>
+<p> O idioma utilizado nesta aplicação é: <%= t('actual_locale') %> </p>
+<p><strong>Hoje é </strong> <%= l(Date.today) %> </p>
+
+<p> <%= t('hello')%> </p>
+
+<ul>
+<p>
+
+</p><%= render "menu"%>
+
+</ul>
+
+<p>
+  Você está em ambiente de <strong><%= ambiente_rails %> </strong>

@@ -1,0 +1,14 @@
+pt-BR:
+  welcome: "Seja bem-vindx!"
+  coins: "Moedas"
+  mining_type: "Tipo de mineração"
+  q1: "Tem certeza?"
+  actual_locale: "Português - BR"
+  hello: "Olá, mundo!"
+
+  edit: "Editar"
+  show: "Exibir"
+  destroy: "Excluir"
+  new_coin: "Nova moeda"
+  back: "Voltar"
+  new_mining_type: Novo tipo de mineração
