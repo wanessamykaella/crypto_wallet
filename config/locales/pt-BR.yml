@@ -1,9 +1,8 @@
 pt-BR:
-  welcome: "Seja bem-vindx!"
+  welcome: "Seja bem-vindo!"
   coins: "Moedas"
   mining_type: "Tipo de mineração"
-  q1: "Tem certeza?"
-  actual_locale: "Português - BR"
+  current_locale: "Português - BR"
   hello: "Olá, mundo!"
 
   edit: "Editar"
@@ -12,3 +11,8 @@ pt-BR:
   new_coin: "Nova moeda"
   back: "Voltar"
   new_mining_type: Novo tipo de mineração
+
+  messages:
+    welcome: "Este é o Crypto Wallet, um app para você cadastrar e acompanhar a cotação das suas criptomoedas."
+    menu: "Para começar, selecione uma das opções abaixo:"
+    confirm: 'Tem certeza?'

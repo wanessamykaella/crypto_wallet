@@ -33,8 +33,7 @@ en:
   welcome: "Welcome!"
   coins: "Coins"
   mining_type: "Mining type"
-  q1: "Are you sure?"
-  actual_locale: "English (US)"
+  current_locale: "English (US)"
   hello: "Hello, world!"
 
   edit: "Edit"
@@ -43,3 +42,8 @@ en:
   new_coin: "New coin"
   back: "Back"
   new_mining_type: New mining type
+
+  messages:
+    welcome: "This is Crypto Wallet, an app for you to register and track the price of your cryptocurrencies."
+    menu: "To begin, select one of the options below:"
+    confirm: 'Are you sure?'

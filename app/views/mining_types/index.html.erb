@@ -2,7 +2,7 @@
 
 <h1><%= t('mining_type')%></h1>
 
-<table>
+<table class="table table-hover">
   <thead>
     <tr>
       <th><%= MiningType.human_attribute_name(:description)%></th>
@@ -18,7 +18,7 @@
         <td><%= mining_type.acronym %></td>
         <td><%= link_to t('show'), mining_type %></td>
         <td><%= link_to t('edit'), edit_mining_type_path(mining_type) %></td>
-        <td><%= link_to t('destroy'), mining_type, method: :delete, data: { confirm: t('q1') } %></td>
+        <td><%= link_to t('destroy'), mining_type, method: :delete, data: { confirm: t('messages.confirm') } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,5 +26,5 @@
 
 <br>
 
-<%= link_to t('new_mining_type'), new_mining_type_path %>
-<%= link_to t('back'), welcome_index_path%>
+<%= link_to t('new_mining_type'), new_mining_type_path, class:"btn btn-info" %>
+<%= link_to t('back'), welcome_index_path, class:"btn btn-info"%>
