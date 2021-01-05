@@ -11,17 +11,18 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= form.label :description %>
-    <%= form.text_field :description %>
+    <%= form.text_field t('description'), class:"form-control", placeholder:"Proof of work" %>
   </div>
 
-    <div class="field">
+    <div class="form-group">
     <%= form.label :acronym %>
-    <%= form.text_field :acronym %>
+  <%= form.text_field t('acronym'), class:"form-control", placeholder:"PoW" %>
   </div>
 
     <div class="actions">
-    <%= form.submit %>
+    <%= form.submit nil, class: "btn btn-info" %>
   </div>
 <% end %>
+</br>

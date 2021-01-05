@@ -1,18 +1,31 @@
 pt-BR:
-  welcome: "Seja bem-vindo!"
-  coins: "Moedas"
-  mining_type: "Tipo de mineração"
-  current_locale: "Português - BR"
-  hello: "Olá, mundo!"
+   welcome: "Seja bem-vindo!"
+   coins: "Moedas"
+   mining_type: "Tipo de mineração"
+   current_locale: "Português - BR"
+   hello: "Olá, mundo!"
 
-  edit: "Editar"
-  show: "Exibir"
-  destroy: "Excluir"
-  new_coin: "Nova moeda"
-  back: "Voltar"
-  new_mining_type: Novo tipo de mineração
+   edit: "Editar"
+   show: "Exibir"
+   destroy: "Excluir"
+   back: "Voltar"
+   new_coin: "Nova moeda"
+   acronym: "Sigla"
+   url_image: "URL da imagem"
+   description: "Descrição"
 
-  messages:
-    welcome: "Este é o Crypto Wallet, um app para você cadastrar e acompanhar a cotação das suas criptomoedas."
-    menu: "Para começar, selecione uma das opções abaixo:"
-    confirm: 'Tem certeza?'
+   msg_welcome: "Este é o Crypto Wallet, um app para você cadastrar e acompanhar a cotação das suas criptomoedas."
+   msg_menu: "Para começar, selecione uma das opções abaixo:"
+   msg_confirm: "Tem certeza?"
+
+   new:
+    coin: "Nova moeda"
+    mining_type: "Novo tipo de mineração"
+
+   editing:
+    coin: "Editando moeda"
+    mining_type: "Editando tipo de mineração"
+
+   showing:
+    coin: "Exibindo moeda"
+    mining_type: "Exibindo tipo de mineração"
